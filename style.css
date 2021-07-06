@@ -1,0 +1,176 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  background-color: rgba(111, 235, 80, 0.315);
+}
+.name {
+  margin-left: 100px;
+  position: fixed;
+  color: lime;
+}
+.s-1 {
+  color: aqua;
+}
+.s-2 {
+  color: hotpink;
+}
+.s-3 {
+  color: indianred;
+}
+.topnav {
+  overflow: hidden;
+  float: right;
+  position: fixed;
+  top: 10px;
+  left: 980px;
+  border-radius: 35px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+}
+.topnav a {
+  float: right;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.topnav a:hover {
+  color: olive;
+}
+h1 {
+  font-size: 50px;
+  color: rgba(82, 80, 80, 0.719);
+}
+.orange-highlight {
+  color: orange;
+}
+.light {
+  color: rgba(82, 80, 80, 0.719);
+}
+.link-btn {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(45deg, orange, salmon);
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-size: 12px;
+  box-shadow: 10px 15px 30px tomato;
+}
+.link-btn:hover {
+  background-image: linear-gradient(45deg, rgb(255, 33, 8), rgb(255, 184, 51));
+}
+.logo-image img {
+  margin-left: 40px;
+  float: right;
+  height: 60px;
+  width: 60px;
+  position: fixed;
+}
+.half-width {
+  width: 50%;
+}
+.top-banner img {
+  width: 100%;
+}
+.top-banner {
+  margin-left: 80px;
+}
+.banner {
+  background-image: url(images/f1.png);
+}
+.flexible-container {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+#recipe1 {
+  border-radius: 25px;
+  padding: 10px 20px 20px 20px;
+  margin-left: 35px;
+  margin-right: 35px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#recipe2 {
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px 20px 20px 20px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+#recipe3 {
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px 20px 20px 20px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+#recipes-item {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+#recipes-item img {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  border-radius: 15px;
+}
+#food-blog {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+#food-blog img {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.recipe-blog {
+  text-align: center;
+}
+.followers-rating {
+  padding-left: 16.5%;
+}
+.followers {
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 25px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  background-image: url(images/bg-2.png);
+}
+.followers h1 {
+  text-align: center;
+}
+.followers p {
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.contact-form {
+  width: 500px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+footer h3 {
+  text-align: center;
+  color: white;
+}
+footer p {
+  text-align: center;
+  color: whitesmoke;
+}
+footer {
+  background-color: black;
+  padding: 5%;
+}
